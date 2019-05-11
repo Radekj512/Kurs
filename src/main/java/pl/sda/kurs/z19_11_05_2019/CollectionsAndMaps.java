@@ -8,11 +8,7 @@ import java.util.List;
 public class CollectionsAndMaps {
     public static void main(String[] args) {
         List<String> names = new ArrayList<>();
-        names.add("Marek");
-        names.add("Aleksandra");
-        names.add("Marta");
-        names.add("Jakub");
-        names.add("Bartosz");
+        fillListWithNames(names, "Marek", "Aleksandra", "Marta", "Jakub", "Bartosz");
 
         System.out.println(names);
         System.out.println("Size of list: " + names.size());
@@ -24,8 +20,13 @@ public class CollectionsAndMaps {
         System.out.println("Czy Marta jest w liscie: " + isNameInList(names, "Marta"));
         printFirstTwoElements(names);
 
+    }
 
 
+    public static void fillListWithNames(List<String> list, String... name){
+        for (int i = 0; i < name.length; i++){
+            list.add(name[i]);
+        }
     }
     public static void addName(List<String> list, String name){
         list.add(name);
