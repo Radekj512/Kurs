@@ -2,6 +2,7 @@ package pl.sda.kurs.z19_11_05_2019;
 
 import java.util.*;
 import java.util.stream.Collectors;
+
 import com.google.common.collect.Lists;
 
 public class CollectionsAndMaps {
@@ -78,7 +79,7 @@ public class CollectionsAndMaps {
         names.addAll(names2);
 
         //Wyświetl informacje o tym czy lista zawiera imiona Aleksandra, Marta i Jakub.
-        System.out.println((isNameInList(names,"Aleksandra")&&(isNameInList(names,"Marta"))&&(isNameInList(names,"Jakub"))));
+        System.out.println((isNameInList(names, "Aleksandra") && (isNameInList(names, "Marta")) && (isNameInList(names, "Jakub"))));
         System.out.println();
 
         //Wyświetl wszystkie imiona z listy w formacie „indeks listy: imię” np. 3: Marta.
@@ -116,9 +117,57 @@ public class CollectionsAndMaps {
         System.out.println();
 
         //Stwórz Set imion, i dodaj do niego 5 elementów (Marek, Aleksandra, Marta, Jakub, Bartosz).
-        Set<String> namesSet = new HashSet<>(Arrays.asList("Marek", "aleksandra", "Marta", "Jakub", "Bratosz"));
+        Set<String> namesSet = new HashSet<>(Arrays.asList("Marek", "Aleksandra", "Marta", "Jakub", "Bratosz"));
         System.out.println(namesSet);
+        System.out.println();
 
+        //Dodaj jeszcze raz imię Marek i wyświetl wszystkie elementy.
+        namesSet.add("Marek");
+        System.out.println(namesSet);
+        System.out.println();
+
+        //Utwórz nową HashMape i uzupełnij ją wartościami (1, Niebieski)(2, Zielony)(3, Czerwony).
+        Map<Integer, String> colorsMap = new HashMap<>();
+        colorsMap.put(1, "Niebieski");
+        colorsMap.put(2, "Zielony");
+        colorsMap.put(3, "Czerwony");
+
+        //Wyświetl wszystkie kolory.
+        System.out.println(colorsMap.values());
+        System.out.println();
+
+        //Wyświetl wszystkie identyfikatory kolorów.
+        System.out.println(colorsMap.keySet());
+        System.out.println();
+
+        //Dodaj nowy kolor do mapy za pomocą odpowiedniej metody.
+        colorsMap.put(4, "Czarny");
+
+        //Wyświetl kolor, który znajdziemy pod id 2.
+        System.out.println(colorsMap.get(2));
+        System.out.println();
+
+        //Wyświetl id, które odpowiada za kolor niebieski.
+        for (Map.Entry<Integer, String> kv : colorsMap.entrySet()) {
+            if (kv.getValue().equals("Niebieski"))
+                System.out.println(kv.getKey());
+        }
+        System.out.println();
+
+        //Wyświetl wszystkie kolory.
+        System.out.println(colorsMap.values());
+        System.out.println();
+
+        //Wyświetl wszystkie identyfikatory kolorów.
+        System.out.println(colorsMap.keySet());
+        System.out.println();
+
+        //Usuń kolor o identyfikatorze 2 z mapy.
+        colorsMap.remove(2);
+
+        //Usuń kolor czerwony z mapy.
+        colorsMap.entrySet().removeIf(color -> (color.getValue().equals("Czerwony")));
+        System.out.println(colorsMap.values());
 
 
 
@@ -160,28 +209,30 @@ public class CollectionsAndMaps {
         String collect = list.stream().collect(Collectors.joining(" ")); //TODO
         System.out.println(res);
     }
-    public static void printAllNamesWithSCharacter(List<String> list){
+
+    public static void printAllNamesWithSCharacter(List<String> list) {
         System.out.println(list.stream().filter(s -> s.contains("s"))
                 .reduce((x, y) -> x + y).orElse("Brak"));
     }
 
-    public static void printSecondAndThirdCharOfEachName(List<String> list){
-       list.stream().map(s -> s.substring(1, 3)).forEach(System.out::println);
+    public static void printSecondAndThirdCharOfEachName(List<String> list) {
+        list.stream().map(s -> s.substring(1, 3)).forEach(System.out::println);
 
     }
-    public static void printReversedList(List<String> list){
+
+    public static void printReversedList(List<String> list) {
         System.out.println(Lists.reverse(list));
     }
 
-    public static void printNamesThatStartsWithMOrEndsWithA(List<String> list){
-        list.stream().filter(n -> (n.charAt(0) == 'M') ||(n.charAt(n.length()-1) == 'a')).forEach(System.out::println);
+    public static void printNamesThatStartsWithMOrEndsWithA(List<String> list) {
+        list.stream().filter(n -> (n.charAt(0) == 'M') || (n.charAt(n.length() - 1) == 'a')).forEach(System.out::println);
     }
 
-    public static void printNamesAndLenght(List<String> list){
-        list.stream().map(name -> name+" "+name.length()).forEach(System.out::println);
+    public static void printNamesAndLenght(List<String> list) {
+        list.stream().map(name -> name + " " + name.length()).forEach(System.out::println);
     }
 
-    public static void printIndexesAndNames(List<String> list){
+    public static void printIndexesAndNames(List<String> list) {
         list.stream().map(name -> list.indexOf(name) + ": " + name).forEach(System.out::println);
     }
 
