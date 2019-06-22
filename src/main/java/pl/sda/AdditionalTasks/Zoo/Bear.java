@@ -1,5 +1,7 @@
 package pl.sda.AdditionalTasks.Zoo;
 
+import java.util.Objects;
+
 public class Bear extends Animal {
     private int furLenght;
 
