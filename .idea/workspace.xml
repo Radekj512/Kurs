@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="902e181e-7404-43b4-900f-6c45361d3045" name="Default Changelist" comment="Task2 completed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/JpaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/JdbcMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/JdbcMain.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,16 +78,15 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>City</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\Projekty_java\KursJava" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -102,6 +106,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_MANAGE_IGNORE_FILES" value="true" />
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -164,7 +169,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JdbcMain">
+  <component name="RunManager" selected="Application.JpaMain">
     <configuration name="CollectionsAndMaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.sda.kurs.z19_11_05_2019.CollectionsAndMaps" />
       <module name="KursJava" />
@@ -178,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Functional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.sda.kurs.z15_30_03_2019.Functional.Functional" />
+    <configuration name="JdbcMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.sda.kurs.JDBC_HIBERNATE.sobota_22_06_2019.JdbcMain" />
       <module name="KursJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.sda.kurs.z15_30_03_2019.Functional.*" />
+          <option name="PATTERN" value="pl.sda.kurs.JDBC_HIBERNATE.sobota_22_06_2019.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,8 +196,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JdbcMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.sda.kurs.JDBC_HIBERNATE.sobota_22_06_2019.JdbcMain" />
+    <configuration name="JpaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.sda.kurs.JDBC_HIBERNATE.sobota_22_06_2019.JpaMain" />
       <module name="KursJava" />
       <extension name="coverage">
         <pattern>
@@ -232,11 +237,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JpaMain" />
         <item itemvalue="Application.JdbcMain" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.CollectionsAndMaps" />
         <item itemvalue="Application.T3" />
-        <item itemvalue="Application.Functional" />
       </list>
     </recent_temporary>
   </component>
@@ -247,12 +252,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2c9a0527" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@5f09bb28" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2c9a0527" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@54e2d89c" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@5f09bb28" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@26c687b4" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -270,7 +275,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549810071961</updated>
-      <workItem from="1561195745449" duration="5494000" />
+      <workItem from="1561195745449" duration="8298000" />
+      <workItem from="1561273249354" duration="273000" />
     </task>
     <task id="LOCAL-00001" summary="Task1 completed">
       <created>1552726111597</created>

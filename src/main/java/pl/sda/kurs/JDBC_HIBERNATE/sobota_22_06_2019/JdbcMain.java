@@ -6,7 +6,29 @@ public class JdbcMain {
     public static void main(String[] args) {
 //        statement();
 //        preparedStatement();
-        callableStatement();
+//        callableStatement();
+        preparedStatement2();
+    }
+    private static void preparedStatement2() {
+        try(Connection connection = getConnection()){
+            int minSal = 100;
+            String query = "select ename, job, sal, mgr from sdajdbc.employee where sal > ?";
+            PreparedStatement preparedStatement = connection.prepareStatement(query);
+            preparedStatement.setInt(1, minSal);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            while (resultSet.next()){
+                String ename = resultSet.getString("ename");
+                String job = resultSet.getString("job");
+                int sal = resultSet.getInt("sal");
+                Integer mgr = resultSet.getInt("mgr");
+                if (resultSet.wasNull()){
+                    mgr = null;
+                }
+                System.out.println(ename + " " + job + " "+ sal + " "+ mgr);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 
     private static void callableStatement() {
