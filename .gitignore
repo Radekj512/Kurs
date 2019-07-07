@@ -66,3 +66,4 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 # Project exclude paths
 /target/
+/src/main/java/pl/sda/kurs/SERWERY/servlet_example/target/

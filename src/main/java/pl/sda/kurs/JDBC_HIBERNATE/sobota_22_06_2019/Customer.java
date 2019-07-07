@@ -1,4 +1,4 @@
-package pl.sda.jdbcjpa;
+package pl.sda.kurs.JDBC_HIBERNATE.sobota_22_06_2019;
 
 import com.google.common.collect.Lists;
 import lombok.Getter;

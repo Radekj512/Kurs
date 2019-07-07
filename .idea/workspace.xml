@@ -1,12 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="servlet_example:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="902e181e-7404-43b4-900f-6c45361d3045" name="Default Changelist" comment="Task2 completed">
-      <change afterPath="$PROJECT_DIR$/KursJava.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/JdbcMain.java___jb_tmp___" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/SERWERY/servlet_example/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/SERWERY/servlet_example/src/main/java/com/radek/LogRadekServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/SERWERY/servlet_example/src/main/java/pl/sda/LogExampleServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/SERWERY/servlet_example/src/main/java/pl/sda/MyFirstServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/SERWERY/servlet_example/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/SERWERY/servlet_example/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KursJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/KursJava.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/Cart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/CustomerStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/CustomerStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/JdbcMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/JdbcMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/JpaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/Order.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,14 +106,21 @@
         <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="sdajpa: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="customer: table" type="285a2a93:MysqlImplModel$Table" />
+        <item name="car: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="sdajpa: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="hibernate_sequence: table" type="285a2a93:MysqlImplModel$Table" />
+        <item name="cart: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="sdajpa: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="customers: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -121,7 +149,20 @@
       </set>
     </option>
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Program Files/Java/jdk1.8.0_201/apache-maven-3.6.0" />
+        <option name="workOffline" value="true" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -133,6 +174,8 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_MANAGE_IGNORE_FILES" value="true" />
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
@@ -147,17 +190,18 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="last.edited.regexp" value="Ala ma kkota&#10;asd&#10;,asd&#10;,,adsd3,&#10;" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/pl/sda/kurs/z18_13_04_2019/src/test/java/pl/sda/patterns/structural/decorator" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/pl/sda/kurs/SERWERY/servlet_example/pom.xml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Docker" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -167,12 +211,8 @@
       <recent name="pl.sda.patterns.creational.singleton" />
       <recent name="pl.sda.CodeWars" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Projekty_java\KursJava\src\main\java\pl\sda\kurs\z15_30_03_2019\IO\data" />
-      <recent name="D:\Projekty_java\KursJava\src\main\java\pl\sda\kurs\z15_30_03_2019\Exceptions" />
-      <recent name="D:\Projekty_java\KursJava\src\main\java\pl\sda\kurs\z15_30_03_2019\Time" />
-      <recent name="D:\Projekty_java\KursJava\src\main\java\pl\sda\kurs\z15_30_03_2019\Generics" />
-      <recent name="D:\Projekty_java\KursJava\src\main\java\pl\sda\kurs\z15_30_03_2019\OOP\util" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pl.sda.kurs.z14_17_03_2019.task1" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="pl.sda.patterns.structural" />
@@ -180,9 +220,18 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="pl.sda.kurs.z14_17_03_2019.task1" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projekty_java\KursJava\src\main\java\pl\sda\kurs\SERWERY" />
+      <recent name="D:\Projekty_java\KursJava\src\main\java\pl\sda\kurs\z15_30_03_2019\IO\data" />
+      <recent name="D:\Projekty_java\KursJava\src\main\java\pl\sda\kurs\z15_30_03_2019\Exceptions" />
+      <recent name="D:\Projekty_java\KursJava\src\main\java\pl\sda\kurs\z15_30_03_2019\Time" />
+      <recent name="D:\Projekty_java\KursJava\src\main\java\pl\sda\kurs\z15_30_03_2019\Generics" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -196,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JpaMain">
+  <component name="RunManager" selected="Tomcat Server.servlet-example">
     <configuration name="CollectionsAndMaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.sda.kurs.z19_11_05_2019.CollectionsAndMaps" />
       <module name="KursJava" />
@@ -262,6 +311,85 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="servlet-example" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.37" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="servlet_example:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/servlet_example" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_KursJava_3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52925" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="servlet_example:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CollectionsAndMaps" />
+      <item itemvalue="Application.JdbcMain" />
+      <item itemvalue="Application.JpaMain" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.T3" />
+      <item itemvalue="Tomcat Server.servlet-example" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.JpaMain" />
@@ -279,36 +407,7 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@fd67d4d4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@fd67d4d4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@5e30cbe6" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@fd67d4d4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@62903df" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@fd67d4d4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@19047cbc" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@fd67d4d4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@6c29d851" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1c919a65" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1c919a65" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@1f51d259" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@9a89af61" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -330,6 +429,11 @@
       <workItem from="1561273249354" duration="273000" />
       <workItem from="1561273595665" duration="1416000" />
       <workItem from="1561275036306" duration="14517000" />
+      <workItem from="1561791640438" duration="8455000" />
+      <workItem from="1561812371926" duration="610000" />
+      <workItem from="1562396364166" duration="11572000" />
+      <workItem from="1562417517324" duration="3161000" />
+      <workItem from="1562482995548" duration="641000" />
     </task>
     <task id="LOCAL-00001" summary="Task1 completed">
       <created>1552726111597</created>
@@ -347,38 +451,6 @@
     </task>
     <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="ShapeTest_shouldCorrectlyFillTheColor - 2019.04.14 at 11h 00m 23s.xml">
-      <configuration name="ShapeTest.shouldCorrectlyFillTheColor" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShapeTest - 2019.04.14 at 11h 03m 47s.xml">
-      <configuration name="ShapeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheeseSandwichTest_getDesc - 2019.04.14 at 11h 24m 28s.xml">
-      <configuration name="CheeseSandwichTest.getDesc" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheeseSandwichTest_getDesc - 2019.04.14 at 11h 29m 45s.xml">
-      <configuration name="CheeseSandwichTest.getDesc" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheeseSandwichTest_getPrice - 2019.04.14 at 11h 29m 59s.xml">
-      <configuration name="CheeseSandwichTest.getPrice" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheeseSandwichTest_getDesc - 2019.04.14 at 11h 36m 23s.xml">
-      <configuration name="CheeseSandwichTest.getDesc" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheeseSandwichTest_getDesc - 2019.04.14 at 11h 36m 57s.xml">
-      <configuration name="CheeseSandwichTest.getDesc" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheeseSandwichTest_getDesc - 2019.04.14 at 11h 37m 51s.xml">
-      <configuration name="CheeseSandwichTest.getDesc" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheeseSandwichTest_getDesc - 2019.04.14 at 11h 38m 07s.xml">
-      <configuration name="CheeseSandwichTest.getDesc" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheeseSandwichTest_getDesc - 2019.04.14 at 11h 39m 08s.xml">
-      <configuration name="CheeseSandwichTest.getDesc" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">

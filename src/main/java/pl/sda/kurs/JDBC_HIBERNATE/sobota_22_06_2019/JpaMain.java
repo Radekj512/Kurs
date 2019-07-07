@@ -1,6 +1,7 @@
-package pl.sda.jdbcjpa;
+package pl.sda.kurs.JDBC_HIBERNATE.sobota_22_06_2019;
 
 import com.google.common.collect.Lists;
+import pl.sda.kurs.JDBC_HIBERNATE.sobota_22_06_2019.Customer;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -17,7 +18,7 @@ import java.util.List;
 
 public class JpaMain {
     private static final EntityManagerFactory ENTITY_MANAGER_FACTORY =
-            Persistence.createEntityManagerFactory("yyy"); //yyy -> tak sie nazywa konfiguracja dostepu do bazy danych
+            Persistence.createEntityManagerFactory("sdajpa"); //yyy -> tak sie nazywa konfiguracja dostepu do bazy danych
 
     public static void main(String[] args) {
         EntityManager entityManager = ENTITY_MANAGER_FACTORY.createEntityManager();
@@ -26,7 +27,7 @@ public class JpaMain {
 //        findCustomersByLastName(entityManager, "Kowalski");
 //        System.out.println(findCustomerByPesel("123"));
 
-        createCustomerWithOrders(entityManager);
+        //createCustomerWithOrders(entityManager);
         Customer customerByPesel = findCustomerByPesel("124");
 
         entityManager.close();
@@ -85,7 +86,7 @@ public class JpaMain {
                 new BigDecimal(1500),
                 customer.getLastName(),
                 customer );
-//fixme
+
         customer.setOrders(Lists.newArrayList(o1,o2));
 
         Cart cart = new Cart();

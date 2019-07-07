@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/src/main/java/pl/sda/kurs/SERWERY/servlet_example" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -13,6 +16,8 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/kurs/z16-17_06-07_04_2019/06_first-integration-tests/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/kurs/z16-17_06-07_04_2019/07_tdd-tests/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/kurs/z18_13_04_2019/pom.xml" />
+        <option value="$PROJECT_DIR$/servlet_example/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/kurs/SERWERY/servlet_example/pom.xml" />
       </list>
     </option>
   </component>

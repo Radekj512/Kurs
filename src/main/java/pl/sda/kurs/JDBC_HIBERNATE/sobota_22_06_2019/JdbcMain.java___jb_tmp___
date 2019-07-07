@@ -1,8 +1,11 @@
 package pl.sda.kurs.JDBC_HIBERNATE.sobota_22_06_2019;
 
+import lombok.ToString;
+
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
+
 
 public class JdbcMain {
     public static void main(String[] args) {
@@ -16,7 +19,7 @@ public class JdbcMain {
 //        sqlInjectionStatement("KING");
         sqlInjectionStatement("KING'; drop table sdajdbc.salgrade; -- ");
     }
-
+ 
     private static void preparedStatement2() {
         try (Connection connection = getConnection()) {
             int minSalary = 100;

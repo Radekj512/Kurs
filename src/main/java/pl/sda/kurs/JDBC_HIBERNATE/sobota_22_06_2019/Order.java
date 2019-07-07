@@ -1,4 +1,4 @@
-package pl.sda.jdbcjpa;
+package pl.sda.kurs.JDBC_HIBERNATE.sobota_22_06_2019;
 
 
 import lombok.AllArgsConstructor;
@@ -14,7 +14,7 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 @Entity
 @Table(name = "Orders")
-public class Order {
+public class  Order {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
