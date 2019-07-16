@@ -1,0 +1,31 @@
+.head{
+    font-weight: bold;
+    border: 1px solid #2a2a2a;
+    text-align: center;
+}
+
+body{
+    background-color: #b6b6b6;
+}
+
+.form-input{
+    background: #bdccd4;
+}
+.form-disabled-input{
+    background: #b2b0b1;
+}
+.form-button{
+    background: #6c757d;
+    color: #000;
+}
+.note{
+    background: #659da9;
+    border: 1px #2a2a2a;
+    border-style: none solid solid solid;
+    text-align: center;
+}
+.note2{
+    border: 1px #2a2a2a;
+    border-style: none solid solid solid;
+    text-align: center;
+}

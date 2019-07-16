@@ -7,27 +7,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="902e181e-7404-43b4-900f-6c45361d3045" name="Default Changelist" comment="Task2 completed">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/JdbcMain.java___jb_tmp___" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/SERWERY/servlet_example/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/SERWERY/servlet_example/src/main/java/com/radek/LogRadekServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/SERWERY/servlet_example/src/main/java/pl/sda/LogExampleServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/SERWERY/servlet_example/src/main/java/pl/sda/MyFirstServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/SERWERY/servlet_example/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/SERWERY/servlet_example/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/HTML_CSS_JS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrapexample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/formWithBootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/key.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/miata.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/omnie.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/style2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/wiki.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KursJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/KursJava.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/CustomerStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/CustomerStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/JdbcMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/JdbcMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/JpaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JDBC_HIBERNATE/sobota_22_06_2019/Order.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -136,6 +148,10 @@
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTTP Request" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -179,6 +195,7 @@
     <property name="ASKED_MANAGE_IGNORE_FILES" value="true" />
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -191,6 +208,7 @@
     <property name="last.edited.regexp" value="Ala ma kkota&#10;asd&#10;,asd&#10;,,adsd3,&#10;" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/pl/sda/kurs/z18_13_04_2019/src/test/java/pl/sda/patterns/structural/decorator" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/pl/sda/kurs/SERWERY/servlet_example/pom.xml" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -211,8 +229,12 @@
       <recent name="pl.sda.patterns.creational.singleton" />
       <recent name="pl.sda.CodeWars" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="pl.sda.kurs.z14_17_03_2019.task1" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projekty_java\KursJava\src\main\java\pl\sda\kurs\HTML_CSS_JS\resources" />
+      <recent name="D:\Projekty_java\KursJava\src\main\java\pl\sda\kurs\HTML_CSS_JS\resources\images" />
+      <recent name="D:\Projekty_java\KursJava\src\main\java\pl\sda\kurs\SERWERY" />
+      <recent name="D:\Projekty_java\KursJava\src\main\java\pl\sda\kurs\z15_30_03_2019\IO\data" />
+      <recent name="D:\Projekty_java\KursJava\src\main\java\pl\sda\kurs\z15_30_03_2019\Exceptions" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="pl.sda.patterns.structural" />
@@ -220,12 +242,8 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Projekty_java\KursJava\src\main\java\pl\sda\kurs\SERWERY" />
-      <recent name="D:\Projekty_java\KursJava\src\main\java\pl\sda\kurs\z15_30_03_2019\IO\data" />
-      <recent name="D:\Projekty_java\KursJava\src\main\java\pl\sda\kurs\z15_30_03_2019\Exceptions" />
-      <recent name="D:\Projekty_java\KursJava\src\main\java\pl\sda\kurs\z15_30_03_2019\Time" />
-      <recent name="D:\Projekty_java\KursJava\src\main\java\pl\sda\kurs\z15_30_03_2019\Generics" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pl.sda.kurs.z14_17_03_2019.task1" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -433,7 +451,8 @@
       <workItem from="1561812371926" duration="610000" />
       <workItem from="1562396364166" duration="11572000" />
       <workItem from="1562417517324" duration="3161000" />
-      <workItem from="1562482995548" duration="641000" />
+      <workItem from="1562482995548" duration="22994000" />
+      <workItem from="1563205379388" duration="113000" />
     </task>
     <task id="LOCAL-00001" summary="Task1 completed">
       <created>1552726111597</created>
