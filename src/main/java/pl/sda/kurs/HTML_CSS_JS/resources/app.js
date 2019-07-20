@@ -97,12 +97,12 @@ $(document).ready(function () {
     function updateNote(noteId){}
 
     function addNote(title, content, id) {
-        let divClass = "row note";
+        let divClass = "row note2";
         if(flag === 0){
-            divClass = "row note2";
+            divClass = "row note";
             flag = 1;
         }else{
-            divClass = "row note";
+            divClass = "row note2";
             flag = 0;
         }
         $('#notes-list').append("<div class=\""+divClass+"\" id='"+id+"'>\n" +
