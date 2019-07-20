@@ -3,7 +3,7 @@ $(document).ready(function () {
     getNotes();
     let flag = 0;
     var notesMap = new Map();
-    let gloalId;
+    let gloalId = null;
 
 
     $('form').submit(function (event) {
@@ -113,6 +113,7 @@ $(document).ready(function () {
             data: JSON.stringify(data),
             type: "PUT",
             success:function(){
+                gloalId = null;
                 location.reload();
             }
         });
