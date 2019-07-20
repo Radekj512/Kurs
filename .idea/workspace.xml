@@ -9,6 +9,7 @@
     <list default="true" id="902e181e-7404-43b4-900f-6c45361d3045" name="Default Changelist" comment="Task2 completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/formWithBootstrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/formWithBootstrap.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -425,7 +426,7 @@
       <workItem from="1563287856310" duration="1498000" />
       <workItem from="1563558108963" duration="89000" />
       <workItem from="1563606414423" duration="11116000" />
-      <workItem from="1563620366231" duration="6981000" />
+      <workItem from="1563620366231" duration="9090000" />
     </task>
     <task id="LOCAL-00001" summary="Task1 completed">
       <created>1552726111597</created>
