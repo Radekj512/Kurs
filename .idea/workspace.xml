@@ -7,39 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="902e181e-7404-43b4-900f-6c45361d3045" name="Default Changelist" comment="Task2 completed">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/HTML_CSS_JS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrap-4.3.1-dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/bootstrapexample.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/formWithBootstrap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/key.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/miata.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/omnie.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/style2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/wiki.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/formWithBootstrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/formWithBootstrap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/style2.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/kurs/HTML_CSS_JS/resources/style2.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -453,6 +426,10 @@
       <workItem from="1562417517324" duration="3161000" />
       <workItem from="1562482995548" duration="22994000" />
       <workItem from="1563205379388" duration="113000" />
+      <workItem from="1563287856310" duration="1498000" />
+      <workItem from="1563558108963" duration="89000" />
+      <workItem from="1563606414423" duration="11116000" />
+      <workItem from="1563620366231" duration="6557000" />
     </task>
     <task id="LOCAL-00001" summary="Task1 completed">
       <created>1552726111597</created>

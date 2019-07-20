@@ -29,3 +29,9 @@ body{
     border-style: none solid solid solid;
     text-align: center;
 }
+img{
+    cursor: pointer;
+}
+#cancel_button{
+    display: none;
+}

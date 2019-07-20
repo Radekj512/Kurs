@@ -5,7 +5,7 @@
     <file type="web" url="file://$PROJECT_DIR$/src/main/java/pl/sda/kurs/SERWERY/servlet_example" />
   </component>
   <component name="JavaScriptSettings">
-    <option name="languageLevel" value="ES6" />
+    <option name="languageLevel" value="JSX" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
