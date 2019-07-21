@@ -48,7 +48,11 @@ $(document).ready(function () {
                 "creator-name": key
             },
             data: JSON.stringify(data),
-            type: "POST"
+            type: "POST",
+            success: function () {
+                location.reload();
+            }
+
         });
     };
 
@@ -65,7 +69,6 @@ $(document).ready(function () {
                     addNote(data[i].title, data[i].content, data[i].id);
                     notesMap.set(data[i].id, data[i]);
                 }
-
             }
         });
     }

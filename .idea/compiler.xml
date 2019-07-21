@@ -10,6 +10,7 @@
         <module name="calculator-tests" />
         <module name="first-integration-tests" />
         <module name="coverage-tests" />
+        <module name="JSP" />
         <module name="patterns-buster" />
         <module name="figures-tests" />
         <module name="tdd-tests" />

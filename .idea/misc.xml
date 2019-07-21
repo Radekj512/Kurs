@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/src/main/java/pl/sda/kurs/JSP" />
     <file type="web" url="file://$PROJECT_DIR$/src/main/java/pl/sda/kurs/SERWERY/servlet_example" />
   </component>
   <component name="JavaScriptSettings">
@@ -21,6 +22,7 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/kurs/z18_13_04_2019/pom.xml" />
         <option value="$PROJECT_DIR$/servlet_example/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/kurs/SERWERY/servlet_example/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/kurs/JSP/pom.xml" />
       </list>
     </option>
   </component>
